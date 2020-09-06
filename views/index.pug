@@ -1,0 +1,65 @@
+doctype html
+html
+    head
+        style
+            include ../static/style.css
+    body
+        // nav#navbar.firstclass.secondclass
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class info]
+                li #[a(href="/") Contact us]
+            div.logo    
+                img(src="../static/logo.png")
+                p ADA    
+        section#introSection       
+            div#w Welcome to Amit's Dance Academy
+            div#r Dance Eat Sleep Reapeat
+        section#missionSection       
+            h2 Our Mission    
+            
+            div.card
+                
+                h3 Dance Perfaction
+                div.card-box
+                    div.card-img
+                        img(src="../static/1.png")
+                    
+                    div.card-content 
+                        p this is best dance academy which has all type of dances          
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="../static/2.png")
+                    
+                    div.card-content 
+                        p this is best dance academy which has all type of dances          
+                
+                  
+            div.card
+                h3 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="../static/3.png")
+                    
+                    div.card-content 
+                        p this is best dance academy which has all type of dances          
+                      
+        section#sponserSection       
+            h2 Our Sponsers
+            #sponsers
+                img(src="../static/apple.png") 
+                img(src="../static/hp.png") 
+                img(src="../static/microsoft.png") 
+                img(src="../static/skype.png") 
+        footer#footer
+            |Copyright &#169 2020 AmitDanceAcademy.com |  All right reserved;
+            
+
+        
+    script
+        include ../static/index.js

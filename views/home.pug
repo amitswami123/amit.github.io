@@ -1,0 +1,50 @@
+extend base.pug
+block scripts
+    script(src="../static/index.js")
+block style
+     style
+            include ../static/style.css
+block content
+        
+        section#introSection       
+            div#w Welcome to Amit's Dance Academy
+            div#r Dance Eat Sleep Reapeat
+        section#missionSection       
+            h2 Our Mission    
+            
+            div.card
+                
+                h3 Dance Perfaction
+                div.card-box
+                    div.card-img
+                        img(src="../static/1.png")
+                    
+                    div.card-content 
+                        p this is best dance academy which has all type of dances          
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="../static/2.png")
+                    
+                    div.card-content 
+                        p this is best dance academy which has all type of dances          
+                
+                  
+            div.card
+                h3 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="../static/3.png")
+                    
+                    div.card-content 
+                        p this is best dance academy which has all type of dances          
+                      
+        section#sponserSection       
+            h2 Our Sponsers
+            #sponsers
+                img(src="../static/apple.png") 
+                img(src="../static/hp.png") 
+                img(src="../static/microsoft.png") 
+                img(src="../static/skype.png")
+

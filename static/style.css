@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color:red;
+    padding:14px 14px;
+}
+
+#navbar img {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 61px;
+    height: 46px;
+    filter: invert(1);
+
+}
+
+#navbar p {
+    font-weight: bolder;
+    position:absolute;
+    top:9px;
+    left:52px;
+    font-size:27px ;
+    color:black;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color:white;
+}
+
+#introSection {
+    height: 400px;
+    background: url(/static/bg.jpg) no-repeat center center/cover;
+    width:100%;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+#w {
+    font-size:30px;
+}
+
+#r {
+    font-size:20px;
+    padding-top:6px;
+}
+
+#sponserSection {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(100, 59, 52);
+}
+#sponserSection h2{
+    text-align: center;
+    padding-top: 8px;
+}
+#missionSection {
+    height: 300px;
+    width: 100%;
+    background-color:white;
+    color:black;
+    color:black;
+}    
+#missionSection h2{
+    text-align: center;
+    padding-top: 8px;
+}
+#footer {
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    color:white;
+    font-size:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    border:4px solid black;
+    height: 200px;
+    margin: 16px;
+    width:30%;  
+    background: white;
+    display:inline-block;
+}
+.card h3 {
+    text-align: center;
+    margin:0px 16px;
+}
+.card-box{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.card-img {
+    height:169px;
+    padding: 0px 14px;
+
+}
+
+.card-img img {
+    height:inherit;
+
+}
+.card-content p {
+    font-size:17px;
+}
+#sponsers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#sponsers img {
+    width: 200px;
+    height: 175px;
+    margin: 58px 22px;
+    padding: 10px 10px;    
+}
+
+
